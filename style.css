@@ -1,0 +1,31 @@
+.card{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px black;
+    transition: 0.5s;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    transition: 2s;
+}
+.desc{
+    padding: 0 3px 0 3px;
+}
+.card:hover{
+    box-shadow: 0px 4px 20px black;
+    background-color: whitesmoke;
+}
+.love{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+.love:hover{
+    transform: rotate3d(1, 1, 1, 45deg);
+}
